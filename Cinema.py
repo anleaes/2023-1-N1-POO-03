@@ -139,4 +139,4 @@ while True:
     else:
         print("Comando inválido!")
         continue
-        self.email = email
+    
