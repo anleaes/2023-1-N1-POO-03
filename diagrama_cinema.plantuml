@@ -2,18 +2,21 @@
 
 title Diagrama de Cinema
 
-class Cinema {
+class Cinema 
+{
     - nome: string
     - endereco: string
     - salas: list<Sala>
 }
 
-class Sala {
+class Sala 
+{
     - numero: int
     - capacidade: int
 }
 
-class Sessao {
+class Sessao 
+{
     - filme: string
     - horario: datetime
     - sala: Sala
@@ -22,12 +25,14 @@ class Sessao {
     + comprar_ingresso(): Ingresso
 }
 
-class Ingresso {
+class Ingresso 
+{
     - sessao: Sessao
     - preco: float
 }
 
-class Cliente {
+class Cliente 
+{
     - nome: string
     - idade: int
     - email: string
