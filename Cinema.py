@@ -1,4 +1,4 @@
-#jimmy
+#Jimmy
 class Cinema:
     def _init_(self, nome, endereco, salas):
         self.nome = nome
@@ -35,7 +35,7 @@ class Cliente:
         self.nome = nome
         self.idade = idade
         self.email = email
-#hiro
+#Hiro
 cinema = Cinema("Cineplex", "Rua A, 123", [Sala(1, 50), Sala(2, 80)])
 sessoes = [Sessao("Vingadores: Ultimato", "18:00", cinema.salas[0], 20),
            Sessao("O Rei Leão", "20:00", cinema.salas[1], 25),
@@ -43,8 +43,8 @@ sessoes = [Sessao("Vingadores: Ultimato", "18:00", cinema.salas[0], 20),
 
 clientes = []
 
-#dreyer
-#jimmy
+#Dreyer
+#Jimmy
 class Cinema:
     def __init__(self, nome, endereco, salas):
         self.nome = nome
@@ -89,7 +89,7 @@ sessoes = [Sessao("Vingadores: Ultimato", "18:00", cinema.salas[0], 20),
 
 clientes = []
 
-#dreyer
+#Dreyer
 while True:
     print("Opções:")
     print("1 - Criar cliente")
@@ -146,7 +146,7 @@ while True:
         print("Opção inválida!")
         continue
 
-#bruno
+#Bruno
 while True:
     comando = input("Digite um comando (criar cliente, comprar ingresso, filmes em cartaz, sair): ")
     
@@ -199,7 +199,7 @@ while True:
         continue
 
 
-#bruno
+#Bruno
 while True:
     comando = input("Digite um comando (criar cliente, comprar ingresso, filmes em cartaz, sair): ")
     
@@ -244,7 +244,7 @@ while True:
         for s in sessoes:
             print(f"- {s.filme} ({s.horario}) - R${s.preco}")
     
-    elif comando == "sair":
+    elif comando == "Sair":
         break
     
     else:
