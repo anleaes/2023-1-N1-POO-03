@@ -1,5 +1,6 @@
 @startuml diagrama_Cinema
 
+
 class Cinema 
 {
     - nome: string
@@ -36,9 +37,11 @@ class Cliente
     - email: string
 }
 
+
 Cinema *-- "salas" Sala
 Sala *-- Sessao
 Sessao *-- Ingresso
 Cliente *-- Ingresso
+
 
 @enduml
