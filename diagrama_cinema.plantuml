@@ -1,6 +1,4 @@
-@startuml diagrama_cinema
-
-title Diagrama de Cinema
+@startuml diagrama_Cinema
 
 class Cinema 
 {
@@ -9,7 +7,7 @@ class Cinema
     - salas: list<Sala>
 }
 
-class Sala 
+class Sala
 {
     - numero: int
     - capacidade: int
@@ -37,11 +35,6 @@ class Cliente
     - idade: int
     - email: string
 }
-
-Cinema *-- "salas" Sala
-Sala *-- Sessao
-Sessao *-- Ingresso
-Cliente *-- Ingresso
 
 Cinema *-- "salas" Sala
 Sala *-- Sessao
